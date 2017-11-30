@@ -123,8 +123,13 @@
     <ClInclude Include="camera.h" />
     <ClInclude Include="Common.h" />
     <ClInclude Include="Info_resume.h" />
+    <ClInclude Include="Job_intention_resume.h" />
     <ClInclude Include="mesh.h" />
     <ClInclude Include="model.h" />
+    <ClInclude Include="rapidxml-1.13\rapidxml.hpp" />
+    <ClInclude Include="rapidxml-1.13\rapidxml_iterators.hpp" />
+    <ClInclude Include="rapidxml-1.13\rapidxml_print.hpp" />
+    <ClInclude Include="rapidxml-1.13\rapidxml_utils.hpp" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Resume.h" />
     <ClInclude Include="resume_creator.h" />
@@ -154,6 +159,9 @@
     <None Include="Shader\vertex.vs" />
     <None Include="text.fs" />
     <None Include="text.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Resume.xml" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
